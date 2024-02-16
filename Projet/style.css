@@ -1,0 +1,73 @@
+#container{
+    height: max-content;
+    position: relative;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+#button{
+    color: rgb(39, 61, 61);
+    position: relative;
+    left: 15%;
+}
+#refresh{
+    color: rgb(109, 194, 194);
+    width: min-content;
+    position: relative;
+    left: 15%;
+}
+#auteur{
+    position: relative;
+    left: 15%;
+    width: max-content;
+    border-radius: 10%;
+    border-color: aqua;
+}
+#content{
+    width: 85%;
+    border-color: aqua;
+    
+}
+.content{
+    position: relative;
+    left: 10px;
+    
+}
+.auteur{
+    color: rgb(93, 133, 233);
+    position: relative;
+    text-align: center;
+}
+.date{
+    text-align: end;
+}
+.date1{
+    text-align:start;
+}
+.chat{
+    width: 100%;
+    height: 500px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(98, 93, 86);
+}
+#unite1{
+    position: relative;
+    border-radius: 10px 50px 10px 80px;
+    padding-left: 3%;
+    padding-right: 1%;
+    width: 50%;
+    height: min-content;
+    background: rgb(218, 172, 79);
+}
+#unite{
+    position: relative;
+    left: 50%;
+    padding-left: 1%;
+    padding-right: 3%;
+    border: 10px;
+    border-radius: 50px 10px 80px 10px;
+    width: 50%;
+    height: min-content;
+    background: #d9f586;
+}
